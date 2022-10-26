@@ -1,0 +1,214 @@
+header{
+    background-color:rgba(0, 0, 0, 0.8);
+    position:fixed;
+    display: inline-block;
+    width: 100%;
+    top: 0;
+}
+.nav--space{
+    position: absolute;
+    z-index: -1;
+    color: #000;
+    height: 50px;
+}
+header nav {
+    text-align: center;
+}
+header nav li{
+    display: inline-block;
+    padding:17px ;
+    color: #fff;
+    font-weight: 300;
+}
+a:hover{
+    color:#000
+}
+.iPhone14--white, .iPhone14-Pro--purple, .watch-ultra{
+    text-align: center;
+}         
+.iPhone14--white h1{
+    font-size:56px ;
+    font-weight: 700;
+    line-height: 60px;
+    color: #1d1d1f;
+}
+.iPhone14--white p ,.watch-ultra p{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 31px;
+    color: #1d1d1f;
+    margin-bottom: 0;
+}
+.iPhone14--white a, .iPhone14-Pro--purple a, .watch-ultra a, .white--watch--fitness a{
+    padding: 20px;
+    color: #0066cc;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29px;
+}
+.iPhone14-Pro--purple{
+    background-color: #000;
+}
+.iPhone14-Pro--purple h1 {
+    padding-top: 50px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #f5f5f7;
+    margin-top: 10px;
+}
+.iPhone14-Pro--purple p {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 31px;
+    color: #f5f5f7;
+}
+.watch-ultra img{
+    padding-top: 70px;
+}
+.black-watch-airpod{
+    display: flex;
+    justify-content: space-evenly;
+}
+.black-watch, .black-airpod{
+    background-color: #000;
+    text-align: center;
+    width: 49%;
+}
+.black-watch img, .black-airpod img{
+    width: 738px;
+    height: 636px;
+    object-fit: cover;
+}
+.black-watch p, .black-airpod p{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 31px;
+    color: #f5f5f7;
+}
+.black-watch a,
+.black-airpod a{
+    padding: 20px;
+        color: #0066cc;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 29px;
+}
+.black-watch  .head--logo--tit{
+    width: 430px;
+    height: 52px;
+    margin-top: 45px;
+}
+.black-airpod h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    color: #fff;
+}
+
+
+.white--watch--fitness {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.white-watch,
+.fitness{
+    background-color: #fbfbfd;
+    text-align: center;
+    width: 49%;
+    margin-top: 15px;
+}
+.fitness{
+    background-color: #f5f5f5;
+}
+.white--watch--fitness .head--logo--tit{
+    margin-top: 45px;
+}
+.white--watch--fitness p{
+    font-size: 21px;
+    font-weight: 400;
+    width: 250px;
+    line-height: 26px;
+    color: #000;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+.macbookair--card {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.macbookair,
+.card{
+    background-color: #fbfbfd;
+    text-align: center;
+    width: 49%;
+    margin-top: 15px;
+}
+
+.macbookair--card .head--logo--tit {
+    margin-top: 45px;
+}
+
+.macbookair--card p {
+    font-size: 21px;
+    font-weight: 400;
+    width: 280px;
+    line-height: 26px;
+    color: #000;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.macbookair h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px;
+    margin-top: 45px;
+    margin-bottom: 0;
+}
+.head--logo--macbook{
+    margin: 0;
+}
+.macbookair--card a{
+    padding: 20px;
+        color: #0066cc;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 29px;
+}
+.last-section{
+    background-color: #f5f5f7;
+}
+.container{
+    width: 1512px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+.last-sec-inform p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #6e6e73;
+    margin-top: 10px;
+}
+.last-sec-others{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.last-sec-others div{
+    margin-left: 40px;
+}
+.last-sec-others ul li{
+    font-size: 12px;
+    font-weight: 400;
+    color: #424245;
+    line-height: 16px;
+}
